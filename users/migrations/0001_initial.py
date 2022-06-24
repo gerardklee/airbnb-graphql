@@ -32,7 +32,7 @@ class Migration(migrations.Migration):
                 ('date_joined', models.DateTimeField(default=django.utils.timezone.now, verbose_name='date joined')),
                 ('avatar', models.FileField(blank=True, upload_to='avatars')),
                 ('superhost', models.BooleanField(default=False)),
-                ('favs', models.ManyToManyField(related_name='favs', to='rooms.Room')),
+                ('favs', models.ManyToManyField(default="no favs yet", blank=True, related_name='favs', null=True, to='rooms.Room')),
                 ('groups', models.ManyToManyField(blank=True, help_text='The groups this user belongs to. A user will get all permissions granted to each of their groups.', related_name='user_set', related_query_name='user', to='auth.Group', verbose_name='groups')),
                 ('user_permissions', models.ManyToManyField(blank=True, help_text='Specific permissions for this user.', related_name='user_set', related_query_name='user', to='auth.Permission', verbose_name='user permissions')),
             ],
