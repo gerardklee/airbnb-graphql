@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "92cd0c79cd12ff24881c3a4b9bb67e14be6a46b7a76806fe74cecab22bcf37b5"
+            "sha256": "a181353a3965e6ce804899bb6be26c3400a3c77f871e3ffdd8feb4f813efed32"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,13 @@
         ]
     },
     "default": {
+        "aniso8601": {
+            "hashes": [
+                "sha256:1d2b7ef82963909e93c4f24ce48d4de9e66009a21bf1c1e1c85bdd0812fe412f",
+                "sha256:72e3117667eedf66951bb2d93f4296a56b94b078a8a95905a052611fb3f1b973"
+            ],
+            "version": "==9.0.1"
+        },
         "asgiref": {
             "hashes": [
                 "sha256:1d2880b792ae8757289136f1db2b7b99100ce959b2aa57fd69dab783d05afac4",
@@ -46,6 +53,39 @@
             ],
             "index": "pypi",
             "version": "==2.0.5"
+        },
+        "graphene": {
+            "hashes": [
+                "sha256:73332510a14b94fcb925dae4563ad6a028d414144704fdcc191565af72608798",
+                "sha256:99becdccd2683c2db1a8486e98d007b5e64fa2ff0922e6c1b08e19233031368d"
+            ],
+            "version": "==3.1"
+        },
+        "graphene-django": {
+            "hashes": [
+                "sha256:0f226ec7db744a54dbc5d6db2aa52d945701ae800e1055046dec2b76a539550a",
+                "sha256:b1a4ce1a2227b1e77f67f0bc2fadd59c1d05016cb9aced45ab65f8612fba2c87",
+                "sha256:d0769396871c01e5c08a8987b98ad6e18f8d2ca2c26b66a1b6bef75668e27826",
+                "sha256:ff46e4fbf7d4fa4c61068ac73011561c8858d36fd79dc768a42c4b82d7ced4bd"
+            ],
+            "index": "pypi",
+            "version": "==3.0.0b5"
+        },
+        "graphql-core": {
+            "hashes": [
+                "sha256:9d1bf141427b7d54be944587c8349df791ce60ade2e3cccaf9c56368c133c201",
+                "sha256:f83c658e4968998eed1923a2e3e3eddd347e005ac0315fbb7ca4d70ea9156323"
+            ],
+            "index": "pypi",
+            "version": "==3.2.1"
+        },
+        "graphql-relay": {
+            "hashes": [
+                "sha256:1ff1c51298356e481a0be009ccdff249832ce53f30559c1338f22a0e0d17250c",
+                "sha256:c9b22bd28b170ba1fe674c74384a8ff30a76c8e26f88ac3aa1584dd3179953e5"
+            ],
+            "markers": "python_version >= '3.6' and python_version < '4'",
+            "version": "==3.2.0"
         },
         "pillow": {
             "hashes": [
@@ -90,6 +130,12 @@
             ],
             "index": "pypi",
             "version": "==9.1.1"
+        },
+        "promise": {
+            "hashes": [
+                "sha256:dfd18337c523ba4b6a58801c164c1904a9d4d1b1747c7d5dbf45b693a49d93d0"
+            ],
+            "version": "==2.3"
         },
         "psycopg2": {
             "hashes": [
@@ -145,6 +191,14 @@
                 "sha256:ddc2182c42912a440511bd7ff5d3e6a1cabc3accbc674a3258c8c41cbfbb2125"
             ],
             "version": "==1.7"
+        },
+        "unidecode": {
+            "hashes": [
+                "sha256:8e4352fb93d5a735c788110d2e7ac8e8031eb06ccbfe8d324ab71735015f9342",
+                "sha256:afa04efcdd818a93237574791be9b2817d7077c25a068b00f8cff7baa4e59257"
+            ],
+            "markers": "python_version >= '3.5'",
+            "version": "==1.3.4"
         }
     },
     "develop": {
